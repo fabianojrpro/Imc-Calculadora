@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- inicio do código html -->
+<head> <!-- inicio do head -->
+    <!-- meta Tags Obrigatórias -->
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link do estilo customizado CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- link da font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap"
+     rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Calcule seu IMC</title>
+</head> <!-- fim do head -->
+<body> <!-- inicio do body -->
+    <div class="container1"> <!-- começo div do container -->
+
+    <header class="titulo-app"> <!-- cabeçalho -->
+         Calculadora de IMC
+    </header>  <!-- cabeçalho -->
+
+        <span>Escreva os dados do Paciente</span>
+
+    <main class="taks-form"> <!-- inicio corpo do sistema -->
+        <i id="img-group" class="material-icons left">person</i>
+        <div class="form-floating mb-3">
+            <input id="nome" type="text" class="form-control" placeholder="Digite o nome:">
+        </div>
+        <i id="img-group" class="material-icons left">publish</i>
+        <div class="form-floating mb-3">
+            <input id="altura" type="number" class="form-control"  placeholder="Altura:">                       
+        </div>
+        <i id="img-group" class="material-icons left">warning</i>
+        <div class="form-floating mb-3">
+            <input id="peso" type="number" class="form-control" placeholder="Peso:">                       
+        </div>
+
+        <a id="calcular" id="texto-buttao" class="waves-effect waves-light btn"><i class="material-icons right">content_paste</i>Calcular</a>
+
+        <div class="result" id="resultado"></div>
+        
+
+    </main> <!-- inicio corpo do sistema -->
+
+    </div>  <!-- fim div do container -->
+
+    <!-- link do script js-->
+    <script src="./js/script.js"></script>
+</body> <!-- fim do body -->
+</html> <!-- fim do código html -->
